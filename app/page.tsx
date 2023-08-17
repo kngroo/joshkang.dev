@@ -6,8 +6,9 @@ import { DotLottiePlayer, PlayerEvents } from "@dotlottie/react-player";
 export default function Home() {
   const [isReady, setIsReady] = useState(false);
   return (
-    <main className="flex min-h-screen flex-col items-center lg:p-24">
+    <main className="flex min-h-screen flex-col items-center">
       <DotLottiePlayer
+        className="lg:w-1/2 md:w-3/4 w-full"
         autoplay={true}
         loop={true}
         src="/under-maintenance.lottie"
