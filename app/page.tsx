@@ -11,7 +11,7 @@ export default function Home() {
         className="lg:w-1/2 md:w-3/4 w-full"
         autoplay={true}
         loop={true}
-        src="/under-maintenance.lottie"
+        src="/maintenance.lottie"
         onEvent={(event: PlayerEvents) => {
           if (event === PlayerEvents.Ready) {
             setIsReady(true);
